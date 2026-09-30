@@ -1,0 +1,73 @@
+{
+    "schedule": {
+        "total_games": 5,
+        "rest_days": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "flipped_games": [
+            false,
+            false,
+            false,
+            false,
+            false
+        ]
+    },
+    "solver": {
+        "max_innings": 10,
+        "max_deficit": 8,
+        "is_playoffs": false,
+        "min_losing_replacement_deficit": 0,
+        "min_winning_replacement_deficit": 0,
+        "pitcher_subs": 13,
+        "batter_subs": 0,
+        "pos_sub_min_inning": 5,
+        "can_lose_dh": false
+    },
+    "chance": {
+        "sims": 10000,
+        "max_relievers": 7,
+        "pitcher_subs": 7
+    },
+    "future": {
+        "pitcher_subs": 13
+    },
+    "slurm": {
+        "chance": {
+            "nodes": 1,
+            "ntasks": 1,
+            "cpus_per_task": 1,
+            "mem": "1G",
+            "time": "00:10:00"
+        },
+        "future": {
+            "nodes": 1,
+            "ntasks": 1,
+            "cpus_per_task": 64,
+            "mem": "64G",
+            "time": "00:30:00"
+        },
+        "solve": {
+            "nodes": 1,
+            "ntasks": 1,
+            "cpus_per_task": 16,
+            "mem": "10G",
+            "time": "00:15:00"
+        },
+        "simulation": {
+            "nodes": 1,
+            "ntasks": 1,
+            "cpus_per_task": 128,
+            "mem": "32G",
+            "time": "1:30:00"
+        }
+    },
+    "simulation": {
+        "sequences_per_pairing": 65536,
+        "seed": 1,
+        "workers": 64,
+        "batch_size": 128
+    }
+}

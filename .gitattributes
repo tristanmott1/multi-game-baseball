@@ -1,0 +1,11 @@
+# Preserve the bytes of research data and the copied configuration.
+/data/inputs/*.csv -text
+/data/simulations/**/*.csv -text
+/data/simulations/**/*.json -text
+/data/simulations/**/*.gz -text
+/results/*.csv -text
+/config.json -text
+
+# Keep documentation and analysis source consistent across platforms.
+*.py text eol=lf
+*.md text eol=lf
