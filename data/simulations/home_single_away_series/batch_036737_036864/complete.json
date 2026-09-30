@@ -1,0 +1,22 @@
+{
+    "identity": "900f71e84bbdd0353dd1f1d1d2cfb4d2f6b5188511b28262668646f999023eb7",
+    "range": [
+        36737,
+        36864
+    ],
+    "plays": 50325,
+    "outputs": {
+        "plays.csv.gz": {
+            "size": 1038737,
+            "mtime_ns": 1790714460287231986
+        },
+        "games.csv": {
+            "size": 184158,
+            "mtime_ns": 1790714460282056365
+        },
+        "rest.csv": {
+            "size": 165950,
+            "mtime_ns": 1790714460276271500
+        }
+    }
+}
