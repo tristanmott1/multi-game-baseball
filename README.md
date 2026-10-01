@@ -21,9 +21,9 @@ all managers use single-game policies in game five.
 | --- | --- |
 | [data/inputs/](data/inputs/) | Matchup probabilities, batting orders, and pitching constraints |
 | [data/simulations/](data/simulations/) | Play-by-play, game summaries, rest transitions, and run metadata |
-| [results/](results/) | Three matrices comparing the manager pairings |
+| [results/](results/) | Manager comparison matrices and extracted Mason Miller entries |
 | [config.json](config.json) | Experiment settings and original computing allocations |
-| [analysis/](analysis/) | Reserved for analysis code |
+| [analysis/](analysis/) | Standalone analysis of simulation records |
 
 See the [data dictionary](docs/data.md) for columns, player IDs, and team
 perspectives. Matrix rows are home managers and columns are away managers.
@@ -48,7 +48,8 @@ compare these policies; they are not cross-objective equilibrium solutions.
 ## Availability
 
 Matchup probabilities and simulation records are included. Model training code,
-optimization solvers, and generated policies are private. Analysis code and
-historical decision case studies will be added separately.
+optimization solvers, and generated policies are private. See
+[analysis/](analysis/) for the Mason Miller entry extraction command.
+Historical decision case studies will be added separately.
 
 A license has not yet been selected.
